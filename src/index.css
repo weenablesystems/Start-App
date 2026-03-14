@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  --color-library-brown: #5D4037;
+  --color-library-burnt-orange: #BF360C;
+  --color-library-dark-yellow: #F9A825;
+  --color-library-beige: #F5F5DC;
+}
+
+@layer base {
+  :root {
+    --background: #F5F5DC;
+    --foreground: #3E2723;
+  }
+  .dark {
+    --background: #3E2723;
+    --foreground: #F5F5DC;
+  }
+}

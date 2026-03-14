@@ -1,0 +1,5 @@
+{
+  "name": "🎓Start-App™ POWERED BY: 🌐SA-iLabs®",
+  "description": "🎓Start-App™ POWERED BY: 🌐SA-iLabs®: Re-Imagining Startups.",
+  "requestFramePermissions": ["camera", "microphone", "geolocation"]
+}
